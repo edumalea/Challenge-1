@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.css">
+        <title>Encriptador de texto</title>        
+    </head>
+        <body>
+            <header>
+                <img src="Logo.png" alt="Logo de Alura">
+                <h1 class="titulo">Bienvenidos al encriptador de texto de Eddy</h1>
+            </header>
+            <main>
+                <section class="seccion1">
+                    <div class="ingresartexto">
+                        <textarea class="inputarea" name="areaescribir" cols="60" rows="10" placeholder="Ingresar texto aquí"></textarea>
+                    </div>
+                    <div class="indicaciones">
+                        <p>
+                            &#9888 Solo letras minúsculas y sin acentos
+                        </p>
+                    </div>
+                    <div class="botones">
+                        <input type="button" class="encriptar" value="Encriptar" >
+                        <input type="button" class="desencriptar" value="Desencriptar">
+                    </div>
+                        
+                </section>
+                <section class="seccion2">
+                    <div class="imagenmuneco">
+                        <img src="Muñeco.png" alt="Imagen muñeco de Alura">
+                    </div>
+                    <div class="mensaje">
+                        <h3 class="h3msj">Ningún mensaje fue encontrado</h3>
+                        <p class="parrafoingresar">Ingresa el texto que desees encriptar</p>
+                    </div>
+                    <div class="resultado">
+                        <h3 class="msjencriptado"> Mensaje encriptado:</h3>
+                        <p class="textoresultado"></p>
+                    </div>
+                    <div class="seccionboton">
+                        <input type="button" class="botoncopiar" value="Copiar">
+                    </div>
+                        
+                    
+                </section>
+            </main>
+            <footer>               	
+                <p> &#169 Todos los derechos reservados, 2022.</p>
+            </footer>
+    
+            <script src="Encriptador.js"></script>
+        </body>
+        
+</html>
